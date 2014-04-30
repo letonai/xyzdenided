@@ -11,7 +11,7 @@ bool QUIT = false;
 SDL_Surface *screen = NULL;
 SDL_Event event;
 
-//Funcaopara inicializar o video, recebe, titudo da janela,tamanho horizontal, tamanho vertical e profundidasde de cor
+//MUDA PORRRA a inicializar o video, recebe, titudo da janela,tamanho horizontal, tamanho vertical e profundidasde de cor
 bool ini(char *title,int horizontal, int vertical, int profundidade_cor){
     if( SDL_Init(SDL_SWSURFACE) == -1){
         return (false);
@@ -27,7 +27,7 @@ bool ini(char *title,int horizontal, int vertical, int profundidade_cor){
 }
 
 
-//Funcao para tratamento de eventos(Teclado,janela ou mouse)
+//Funcao LETONAI para tratamento de eventos(Teclado,janela ou mouse)
 void eventos(SDL_Event event){
 
     while(SDL_PollEvent(&event) ){
