@@ -11,7 +11,7 @@ bool QUIT = false;
 SDL_Surface *screen = NULL;
 SDL_Event event;
 
-//Funcao teste inicializar o video, recebe, titudo da janela,tamanho horizontal, tamanho vertical e profundidasde de cor
+//Funcao teste1 inicializar o video, recebe, titudo da janela,tamanho horizontal, tamanho vertical e profundidasde de cor
 bool ini(char *title,int horizontal, int vertical, int profundidade_cor){
     if( SDL_Init(SDL_SWSURFACE) == -1){
         return (false);
