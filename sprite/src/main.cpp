@@ -27,7 +27,7 @@ bool ini(char *title,int horizontal, int vertical, int profundidade_cor){
 }
 
 
-//Funcao LETONAI para tratamento de eventos(Teclado,janela ou mouse)
+//Funcao LETONAI  para tratamento de eventos(Teclado,janela ou mouse)
 void eventos(SDL_Event event){
 
     while(SDL_PollEvent(&event) ){
